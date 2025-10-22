@@ -1,8 +1,8 @@
 ## Instalasi dan Setup
 1. backend
     - install dependensi
-        cd backend
-        npm install
+        * cd backend
+        * npm install
 
 2. setup database
     - buat database baru di mysql dengan nama auth_db
@@ -28,16 +28,16 @@
     ```
 
 4. jalankan backend di folder backend
-    node index.js
+    * node index.js
 
 5. frontend
     - install dependensi
-        buka terminal baru
-        cd frontend
-        npm install
+        * buka terminal baru
+        * cd frontend
+        * npm install
 
 6. jalankan frontend di folder frontend
-    npm run start
+    * npm run start
 
 7. Menambahkan user baru 
     - Gunakan API client seperti Postman
@@ -49,10 +49,12 @@
     - Pilih opsi raw.
     - Di menu dropdown di sebelahnya, pilih JSON.
     - Di dalam kotak teks, masukkan data user baru Anda:
+        ```json
         {
             "username": "user",
             "password": "password123"
         }
+        ```
     - Klik tombol Send.
 
 ## Tech Stack
