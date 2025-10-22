@@ -7,21 +7,25 @@
 2. setup database
     - buat database baru di mysql dengan nama auth_db
     - jalankan query sql berikut untuk memmbuat table users
+    ```sql
     CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(100) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
+    ```
 
 3. buat file .env
     - Buat file bernama .env di dalam direktori backend/
     - salin dan tempel konfigurasi berikut
+    ```dotenv
     DB_HOST=localhost
     DB_USER=root
     DB_PASSWORD=
     DB_NAME=auth_db
     JWT_SECRET=super_secret_jwt_key_random_long_string
+    ```
 
 4. jalankan backend di folder backend
     node index.js
