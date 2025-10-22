@@ -70,46 +70,17 @@
     - mysql
 
 ## Arsitektur
-Tes-Login/
-├── .gitignore
-├── README.md
-├── docs/
-│   └── images/         (folder screnshoot)
-│       └── Dashboard Desktop.png
-│       └── Dashboard Mobile.png
-│       └── Login Desktop.png
-│       └── Login Mobile.png
-│
-├── backend/
-│   ├── node_modules/ (Diabaikan oleh Git)
-│   ├── routes/
-│   │   └── auth.js     (Mengelola semua endpoint API yang terkait dengan autentikasi)
-│   ├── .env           (Sangat Penting: Diabaikan oleh Git)
-│   ├── db.js       (Menyiapkan dan mengekspor koneksi ke database MySQL)
-│   ├── index.js    (Titik masuk utama (entry point) untuk server backend)
-│   ├── package.json
-│   └── package-lock.json
-│
-└── frontend/
-    ├── node_modules/ (Diabaikan oleh Git)
-    ├── public/
-    │   └── index.html
-    ├── src/
-    │   ├── assets/
-    │   │   └── logo-bg.webp
-    │   ├── App.js   (Komponen React utama yang berisi semua logika UI, termasuk form login, state pengguna, dan toggle dark mode.)
-    │   ├── index.css (File CSS utama tempat arahan (directives) Tailwind CSS diimpor)
-    │   └── index.js
-    ├── package.json
-    ├── package-lock.json
-    └── tailwind.config.js  (File konfigurasi kustom untuk Tailwind CSS)
+![Arsitektur](docs/images/Arsitektur.png)
 
 ## Screenshot
-- Login Desktop
-![Login Desktop](docs/images/Login%20Desktop.png)
-- Dashboard Desktop
-![Dashboard Desktop](docs/images/Dashboard%20Desktop.png)
-- Login Mobile
-![Login Mobile](docs/images/Login%20Mobile.png)
-- Dashboard Mobile
-![Dashboard Mobile](docs/images/Dashboard%20Mobile.png)
+1. Login Desktop
+- ![Login Desktop](docs/images/Login%20Desktop.png)
+
+2. Dashboard Desktop
+- ![Dashboard Desktop](docs/images/Dashboard%20Desktop.png)
+
+3. Login Mobile
+- ![Login Mobile](docs/images/Login%20Mobile.png)
+
+4. Dashboard Mobile
+- ![Dashboard Mobile](docs/images/Dashboard%20Mobile.png)
